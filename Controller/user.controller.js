@@ -64,9 +64,6 @@ const transporter = nodemailer.createTransport({
 
 
 
-
-
-
 const signup = async (req, res) => {
     try {
         const { Name, Email, Password } = req.body;
@@ -94,6 +91,7 @@ const signup = async (req, res) => {
         res.status(500).json({ status: false, message: "Error while saving user" });
     }
 };
+
 
 const signin = (req, res) => {
     const { Email, Password } = req.body;
