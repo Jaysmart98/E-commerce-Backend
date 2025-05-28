@@ -46,7 +46,7 @@ const transporter = nodemailer.createTransport({
                         <li><strong>Product 3:</strong> WEARS</li>
                     </ul>
                     <p>Visit our website now to explore more:</p>
-                    <a href="#" style="display: inline-block; padding: 10px 20px; color: #fff; background-color: #007BFF; text-decoration: none; border-radius: 5px;">CLICK HERE</a>
+                    <a href="/signin" style="display: inline-block; padding: 10px 20px; color: #fff; background-color: #007BFF; text-decoration: none; border-radius: 5px;">CLICK HERE</a>
                     <p>Thank you for choosing us</p>
                     <p>Best regards,</p>
                     <p><strong>E-Commerce tea,</strong></p>
