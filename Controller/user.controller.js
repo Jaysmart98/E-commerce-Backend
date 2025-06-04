@@ -39,7 +39,7 @@ const transporter = nodemailer.createTransport({
                 <div style="max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
                     <h1 style="color: #007BFF;">FROM E-COMMERCE TEAM!</h1>
                     <p>Dear Valued Customer,</p>
-                    <p>We are thrilled to have you pn board, explore the newest arrival of our products, carefully curated to meet your needs and preferences. Check out our latest collection and be the first to grab these amazing items!</p>
+                    <p>We are thrilled to have you on board, explore the newest arrival of our products, carefully curated to meet your needs and preferences. Check out our latest collection and be the first to grab these amazing items!</p>
                     <ul>
                         <li><strong>Product 1:</strong> GADGET </li>
                         <li><strong>Product 2:</strong> FURNITURE</li>
