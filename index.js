@@ -27,8 +27,12 @@ mongoose.connect(URI)
 
 
 
-app.get('/', (req, res) => {
-  res.send('Hello')
+app.get('/signup', (req, res) => {
+  res.send('Hello from signup route!')
+})
+
+app.get('/signin', (req, res) => {
+  res.send('Hello from signin route!')
 })
 
 app.listen(port, () => {
