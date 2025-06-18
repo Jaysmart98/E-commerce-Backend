@@ -26,7 +26,7 @@ mongoose.connect(URI)
   })
 
   app.get('/', (req, res) => {
-    res.send('Hello from signup route!')
+    res.send('Hello!')
   })
 
 app.get('/signup', (req, res) => {
