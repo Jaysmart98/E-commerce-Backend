@@ -25,7 +25,9 @@ mongoose.connect(URI)
     console.log(err);
   })
 
-
+  app.get('/', (req, res) => {
+    res.send('Hello from signup route!')
+  })
 
 app.get('/signup', (req, res) => {
   res.send('Hello from signup route!')
